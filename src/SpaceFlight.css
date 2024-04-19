@@ -1,0 +1,20 @@
+.space-flight-container {
+    display: flex; /* Enable flexbox for horizontal alignment */
+    flex-wrap: wrap; /* Allow items to wrap to multiple lines if needed */
+  }
+  
+  .flight-item {
+    display: flex; /* Enable flexbox for image and text positioning */
+    margin: 10px; /* Add some margin for spacing */
+    border: 1px solid #ddd; /* Add a border for the frame effect */
+    padding: 10px; /* Add some padding inside the frame */
+  }
+  
+  .flight-image {
+    flex: 0 0 20%; /* Set a fixed width for the image */
+    margin-right: 10px; /* Add margin between image and text */
+  }
+  
+  .flight-details {
+    flex: 1; /* Allow remaining space to be filled by text content */
+  }
